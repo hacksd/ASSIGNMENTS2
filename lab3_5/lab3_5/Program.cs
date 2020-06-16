@@ -12,12 +12,12 @@ namespace lab3_5
             if (message.Contains(blackListWord))
             {
                 isSpam = true;
-                Console.WriteLine("The message is spam");
+                Console.WriteLine("The message is spam"+isSpam);
             }
             else
             {
                 isSpam = false;
-                Console.WriteLine("The message is not spam.");
+                Console.WriteLine("The message is not spam."+isSpam);
             }
         }
     }
