@@ -24,7 +24,7 @@ namespace lab2_4
             Console.WriteLine(NUMBERS);
             NUMBERS = mySecondNumber / (double)myFirstNumber;
             Console.WriteLine(NUMBERS);
-            Console.WriteLine("Breakpoint Here ");
+            Console.WriteLine("Breakpoint Here "); 
             string textToNumber = "80473";
             int results = 99 * int.Parse(textToNumber);
             Console.WriteLine(results);
