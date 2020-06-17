@@ -17,7 +17,7 @@ namespace lab3_5
             else
             {
                 isSpam = false;
-                Console.WriteLine("The message is not spam."+ isSpam);
+                Console.WriteLine("The message is not spam."+  isSpam);
             }
         }
     }

@@ -6,10 +6,10 @@ namespace lab2_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Lab 2_4");
             int myFirstNumber = 19;
             int mySecondNumber = 244;
-            Console.WriteLine("The result is :" + myFirstNumber * mySecondNumber);
+            Console.WriteLine("The result is :" + myFirstNumber * mySecondNumber); 
             string myText = "Some Text";
             Console.WriteLine(myText + " "+mySecondNumber);
             string moreText = "Goes Here";
